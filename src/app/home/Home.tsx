@@ -5,6 +5,9 @@ import Hero from './Components/Hero';
 import AboutEva from './Components/AboutEva';
 import OurServices from './Components/OurServices';
 import WhyChooseUs from './Components/WhyChooseUs';
+import ContactUs from './Components/ContactUs';
+import Footer from '@/Components/Footer';
+import CustomerReview from './Components/CustomerReview';
 
 const HomePage = () => {
     return (
@@ -15,6 +18,9 @@ const HomePage = () => {
             <AboutEva />
             <OurServices />
             <WhyChooseUs />
+            <ContactUs />
+            <CustomerReview />
+            <Footer />
 
         </div>
     )

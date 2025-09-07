@@ -1,4 +1,7 @@
 import { NavTypes, ServiceCardProps } from "@/types/types";
+import { IoIosCall } from "react-icons/io";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 
 export const paddingX = "px-6 md:px-12 lg:px-16 xl:px-24";
 
@@ -108,5 +111,51 @@ export const chooseData = [
     image: "/images/choose3.png",
     description:
       "4EVA KLEEN have backgrounds in end of lease cleaning,  window cleaning, carpet and tiles steam cleaning with quality rating of 5 stars ",
+  },
+];
+
+export const contactData = [
+  { id: 1, text: "Call Us", contact: "0989292833", icon: IoIosCall },
+  {
+    id: 2,
+    text: "Email Us",
+    contact: "4evakleen@gmail.com",
+    icon: MdEmail,
+  },
+  {
+    id: 3,
+    text: "Find Us",
+    contact: "Perth W.A",
+    icon: FaLocationDot,
+  },
+];
+
+export const testimonialData = [
+  {
+    id: 1,
+    text: "I've had my windows cleaned twice now by 4Eva Kleen and I highly recommend them! Thank you!",
+    fullText:
+      "I've had my windows cleaned twice now by 4Eva Kleen and I highly recommend them! Very thorough including the tracks and fly screens, they've come up sparkling both times. Thank you!",
+    author: "Magda Upton",
+    location: "",
+    rating: 5,
+  },
+  {
+    id: 2,
+    text: "Excellent Exit Clean for Lease handback. Rejuvenated tired carpets.",
+    fullText:
+      "Excellent Exit Clean for Lease handback. Rejuvenated tired carpets. Eva and Wesley came to the rescue when another vendor let me down at the last moment",
+    author: "Mullaloo WA",
+    location: "",
+    rating: 5,
+  },
+  {
+    id: 3,
+    text: "Eva is very nice and helpful. My house windows and tracks are absolutely spotless! Highly recommended and will definitely use their service again!",
+    fullText:
+      "Eva is very nice and helpful. My house windows and tracks are absolutely spotless! Highly recommended and will definitely use their service again!",
+    author: "Eric",
+    location: "",
+    rating: 5,
   },
 ];
